@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+/*@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');* 웹에서 불러오는 얇은 웹폰트*/
+
+
+@font-face{
+	font-family:'Nanum Gothic';
+	src:url('../font/NanumGothic.eot');
+	src:url('../font/NanumGothic.eot?#iefix') format('embedded-opentype'),
+	url('../font/NanumGothic.woff') format('woff'),
+	url('../font/NanumGothic.ttf') format('truetype'),
+	url('../font/NanumGothic.svg#NanumGothic') format('svg');
+	src:local(※), url('/font/NanumGothic.woff') format('woff');
+}
+
+@font-face {  
+	font-family: 'SourceSansPro-Regular';/* 폰트 명 */
+	src: url(/tmpl/theme_basic/font/SourceSansPro-Regular.ttf);/* IE9 호환성 보기 */
+	src: local("☺"),/* 웹 브라우저가 지원하지 않는 불필요한 웹 폰트 호출을 막는데 사용 */
+        url(/tmpl/theme_basic/font/SourceSansPro-Regular.ttf) format('truetype'),/* Safari, Android, iOS */
+        url(../font/SourceSansPro-Regular.svg#KakaoaLt) format('svg');/* TTF에서도 커버가 안되는 기기들에 대한 대응 */
+}
+
+@font-face{ 
+  font-family: 'mplus-1c-regular';
+  src: url('../font/mplus-1c-regular.eot');
+  src: url('../font/mplus-1c-regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/mplus-1c-regular.woff') format('woff'),
+       url('../font/mplus-1c-regular.ttf') format('truetype');
+}
+
+@font-face {  
+	font-family: 'SimHei';/* 폰트 명 */
+	src: url(/tmpl/theme_basic/font/SimHei.ttf);/* IE9 호환성 보기 */
+	src: local("☺"),/* 웹 브라우저가 지원하지 않는 불필요한 웹 폰트 호출을 막는데 사용 */
+        url(/tmpl/theme_basic/font/SimHei.ttf) format('truetype'),/* Safari, Android, iOS */
+        url(../font/SimHei.svg#KakaoaLt) format('svg');/* TTF에서도 커버가 안되는 기기들에 대한 대응 */
+}
+
+
+body,div,h4,h3,h2,h1,ul,li,dl,dt,dd,table,tbody,thead,th,td,a,img,p,form,fieldset,legend,label,input,select,span,strong,address,footer,textarea,section{margin:0; padding:0;}
+
+body,select,input,textarea{
+	/* font-family: 'SourceSansPro-Regular','Mplus 1p','Nanum Barun Gothic',sans-serif; */
+	color:#333;
+	font-size:12px;
+}
+
+select,input,img{vertical-align:middle;}
+
+img,fieldset{border:0 none;}
+
+ul{list-style:none;}
+
+a:link,a:visited{text-decoration:none; color:#333;}
+a:hover,a:active{text-decoration:none; color:#333;} /*text-decoration:underline; color:#0066ff*/
+
+
+legend,caption,.hide{
+	width:1px;  
+	height:1px;
+	font-size:0;
+	line-height:0;
+	overflow:hidden;
+	visibility:hidden;
+	position:absolute;  /*화면 밖았으로 빼버리자*/
+	left:-999px;
+}
+
+table{border-collapse:collapse;}
+
+address{font-style:normal;}
+
+h1, h2, h3, h4{font-size:1em;} /*기본으로 그냥 박자*/
+
+
+
+
+
+
+.hypn{margin-left: 5px;}
+
+
+
+.txt_left{text-align:left;}
+.fl_left{float:left !important;}
+.fl_right{float:right !important;}
+
+.li_margin_l{margin-left:0 !important;}
+.li_margin_r{margin-right:0 !important;}
+.li_margin_b{margin-bottom:0 !important;}
+
+.borderRight_no{border-right:none !important;}
+.borderBottom_no{border-bottom:none !important;}
+
+.strong{font-weight:bold;}
+
+
+.mt10{margin-top:10px !important;}
+.mt20{margin-top:20px !important;}
+.mt30{margin-top:30px !important;}
+.mt35{margin-top:35px !important;}
+
+.ml0{margin-left:0px !important;}
+
+.mr0{margin-right:-5px !important;}
+.mr5{margin-right:5px !important;}
+
+.mb5{margin-bottom:5px !important;}
+.mb10{margin-bottom:10px !important;}
+.mb20{margin-bottom:20px !important;}
+.mb30{margin-bottom:30px !important;}
+.mb40{margin-bottom:40px !important;}
+.mb50{margin-bottom:50px !important;}
+.mb60{margin-bottom:60px !important;}
+
+
+
+
+.p0{padding:0 !important;}
+.pt0{padding-top:2px;}
+.pt35{padding-top:35px !important;}
+
+.pb30{padding-bottom:30px;}
+.pb200{padding-bottom:200px !important;}
+
+.pr80{padding-right:80px !important;}
+
+
+
+/* 
+ * Nanum Barun Gothic Web Fonts
+ * https://github.com/hiun/NanumBarunGothic
+ * Copyright (c) 2010, NAVER Corporation (http://www.nhncorp.com) 
+ */
+ 
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/NanumBarunGothicUltraLight.eot);
+  src: local('Nanum Barun Gothic UltraLight'),
+       local('NanumBarunGothicUltraLight'),
+       url(../font/NanumBarunGothicUltraLight.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumBarunGothicUltraLight.woff2) format('woff2'),
+       url(../font/NanumBarunGothicUltraLight.woff) format('woff'),
+       url(../font/NanumBarunGothicUltraLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NanumBarunGothicLight.eot);
+  src: local('Nanum Barun Gothic Light'),
+       local('NanumBarunGothicLight'),
+       url(../font/NanumBarunGothicLight.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumBarunGothicLight.woff2) format('woff2'),
+       url(../font/NanumBarunGothicLight.woff) format('woff'),
+       url(../font/NanumBarunGothicLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NanumBarunGothic.eot);
+  src: local('Nanum Barun Gothic'),
+       local('NanumBarunGothic'),
+       url(../font/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumBarunGothic.woff2) format('woff2'),
+       url(../font/NanumBarunGothic.woff) format('woff'),
+       url(../font/NanumBarunGothic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/NanumBarunGothicBold.eot);
+  src: local('Nanum Barun Gothic Bold'),
+       local('NanumBarunGothicBold'),
+       url(../font/NanumBarunGothicBold.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumBarunGothicBold.woff2) format('woff2'),
+       url(../font/NanumBarunGothicBold.woff) format('woff'),
+       url(../font/NanumBarunGothicBold.ttf) format('truetype');
+}
+
+
+

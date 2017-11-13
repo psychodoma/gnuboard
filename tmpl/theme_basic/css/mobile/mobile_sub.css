@@ -1,0 +1,3207 @@
+@charset "utf-8";
+
+
+h3,h4,p,a,td {
+	word-wrap:break-word;
+	word-break:break-all;
+
+}
+
+.sub_title{height:55px;}
+.sub_title h2{
+	text-align:center;
+	font-size:16px;
+	padding-top: 20px;
+}
+
+.sub_title1,.sub_title2{
+	height: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+.sub_title1 h2{
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+.sub_title2 {
+	border-bottom: 2px solid #00aee9;
+}
+
+
+										/*-------------------------------------------------------모바일 타이틀 수정------------------------------------------------------------------*/
+.sub_title2 h2{
+	text-align:center;
+	font-size:16px;
+	padding-top: 12px; /*  20px; */
+	color:#000;
+	line-height: 30px; /* 14px; */
+	
+	/*이벤트 타이틀 생략*/
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	word-wrap:normal;
+	overflow:;
+	padding-left: 15%;
+    /* margin: 0 auto; */
+	/**/
+
+	/* display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-wrap:break-word;
+	line-height: 1.2em;
+	 */
+
+}
+
+.sub_title1 h2 {width:auto;margin-left:0;padding:0;font-weight:bold;line-height:55px;padding:0 75px 0 70px;}
+.sub_title2 h2 {width:auto;margin-left:0;padding:0;font-weight:bold;line-height:55px;padding:0 75px 0 70px;}
+
+.serch_btn{background:#fff;}
+
+/* sub1_1 코리아투어카드 혜택 */
+.sub1_1area{}
+.sub11_img1{margin-bottom: 30px;}
+
+.sub1_1area1{
+	max-width: 768px;
+    margin: 0 auto;
+}
+.sub11_title1{
+	font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-left: 3%;
+}
+.sub11_txt1{
+	font-size: 15px;
+    line-height: 22px;
+    color: #636363;
+    padding: 0 3%;
+}
+.sub11_txt1 p{}
+.sub11_img2{
+	text-align: center;
+    padding: 2.5% 0 3.5% 0;
+}
+.sub11_img2 img{}
+
+
+.sub1_1area2{
+	max-width: 768px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.sub11_title2{
+	font-size: 25px;
+    font-weight: 500;
+    display: inline-block;
+    padding-left: 3%;
+    margin-bottom: 10px;
+}
+.sub11_title2 span{
+	font-weight: bold;
+    color: #00aee9;
+	display: block;
+	margin-bottom:9px;
+}
+
+.sub11_txt22{
+	font-size: 15px;
+    line-height: 22px;
+    color: #636363;
+    padding: 0 3%;
+}
+
+
+
+
+
+/* sub1_2 코리아투어카드 정보 */
+#ctt_con{
+	min-height: 673px;
+}
+.sub1_2area{}
+.sub1_2area h3{
+	font-size: 25px;
+    font-weight: 500;
+    padding-left: 3%;
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.sub12_table{
+	font-size: 14px;
+    border-top: 2px solid #000;
+	margin-bottom:15px;
+}
+.sub12_table td{
+	border-bottom: 1px solid #ccc;
+    padding: 10px;
+	border-left:1px solid #ccc;
+	color: #636363;
+}
+.sub12_table td.td1{
+	border-bottom: 1px solid #000;
+	border-left:0;
+	font-weight: 600;
+	width:20%;
+	color: #232323;
+}
+.sub12_table td.td2{
+	border-bottom: 1px solid #000;
+	font-weight: 600;
+	width:20%;
+	color: #232323;
+}
+.sub12_table td.td3{
+	border-bottom: 1px solid #000;
+	font-weight: 600;
+	color: #232323;
+}
+
+.sub12_table td.sub12_tdBold{
+	border-left:0;
+	font-size:16px;
+	font-weight: 600;
+	color: #232323;
+}
+
+.sub12_tdList{text-align:left;}
+.sub12_tdList ul{}
+.sub12_tdList ul li{
+	padding-left: 10px;
+    background-image: url(/img/mobile/sub/sub3/sub3_2/sub31_dot.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 11px;
+    line-height: 25px;
+}
+
+.sub12_table td.border2px{border-bottom:2px solid #ccc;}
+
+
+.sub12_add{
+	padding: 0 3%;
+    margin-bottom: 60px;
+}
+.sub12_list{
+	font-size:13px;
+	color: #636363;
+}
+.sub12_list td{
+	padding-bottom: 5px;
+    line-height: 20px;
+}
+
+.sub12_list_I{
+	vertical-align: top;
+	padding-right: 5px;
+}	
+
+
+.sub11_btn{
+	display: inline-block;
+	width:100%;
+    padding: 30px 0;
+}
+.sub11_btn a{
+	text-decoration: none !important;
+    text-align: center;
+    background-color: #a2a2a2;
+    color: #fff !important;
+    border-radius: 3px;
+    padding: 9px 25px;
+    display: block;
+    width: 190px;
+	margin:0 auto;
+
+	transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.sub11_btn a i{
+	margin-left: 7px;
+	font-size: 13px;
+}
+
+.sub11_btn a:hover{
+	background-color: #4ac7f7;
+}
+
+
+
+
+
+
+
+/* sub1_2 코리아투어카드 정보 */
+.sub12_table_us{
+	font-size: 12px;
+}
+
+.sub12_table_us .sub12_tdList{padding:0;}
+.sub12_table_us .sub12_tdList ul{padding:3%;}
+
+.sub12_table_jp{
+	font-size: 12px;
+}
+
+.sub12_table_cn{}
+
+
+
+.sub12_btn{display: inline-block;}
+.sub12_btn a{
+	text-decoration: none !important;
+    text-align: center;
+    background-color: #a2a2a2;
+    color: #fff !important;
+    border-radius: 3px;
+    padding: 4px 15px;
+    display: block;
+
+	transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.sub12_btn a:hover{
+	background-color: #4ac7f7;
+}
+
+
+
+
+
+
+
+/* sub1_3 코리아투어카드 홍보센터 list */
+.sub1_3area{
+	width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+	min-height:674px;
+}
+.sub1_3topTxt{
+	background-color: #eff0f2;
+    text-align: center;
+    font-size: 16px;
+    color: #6f6f6f;
+    margin: 0px 0 30px 0;
+    padding: 0 3%;
+}
+.sub1_3topTxt h4{
+	font-weight: 500;
+    padding: 20px 0;
+    line-height: 24px;
+}
+
+.sub13_board{
+	display: inline-block;
+	width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    padding-top: 30px;
+	margin-bottom:80px;
+}
+.sub13_board_area{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.sub13_board_area a{
+	display: block;
+	text-decoration:none;
+}
+.sub13_board_img{margin-bottom: 15px;}
+.sub13_board_img img{width:100%;}
+.sub13_info{}
+.sub13_info h3{
+	font-size: 18px;
+    margin-bottom: 10px;
+	padding: 0 3%;
+}
+.sub13_info_txt{
+	padding: 0 3%;
+	font-size: 15px;
+    line-height: 22px;
+    color: #868686;
+
+	height: 62px;
+    overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.sub13_info_date{
+	font-size: 15px;
+    color: #868686;
+    margin-bottom: 20px;
+	padding: 0 3%;
+}
+
+
+
+
+
+/* sub1_3 코리아투어카드 홍보센터 view */
+.sub13_board_view{
+	max-width: 768px;
+    margin: 0 auto;
+}
+.sub1_3table_view{
+	width:100%;
+	border-top: 2px solid #1b1b1b;
+	margin-bottom:20px;
+}
+.sub1_3table_view td{
+	border-bottom: 1px solid #afafaf;
+    padding: 20px 30px;
+}
+.sub1_3table_view td.title{padding: 18px 3%;}
+.sub1_3table_view td.title h2{
+	font-size: 18px;
+    margin-bottom: 10px
+}
+.sub1_3table_view td.title p{
+	font-size: 14px;
+    margin-top: 2px;
+    color: #868686;
+}
+
+.sub1_3table_view td.fileDown{
+	padding: 0;
+    border-bottom: 0;
+}
+
+.sub1_3table_view td.content{padding: 30px 3%;}
+.sub1_3table_view td.content div{}
+
+.sub1_3center .btn{text-align: right;}
+.sub1_3center .btn .list{
+	display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 40px;
+    width: 110px;
+    height: 40px;
+    background-color: #17a7d9;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.sub1_3center .btn .list:hover{
+	background-color:#27b4e4;
+}
+
+.board_btn{text-align: right;}
+.board_btn .list{
+	display: inline-block;
+    text-align: center;
+    text-decoration: none;
+	margin-right:3%;
+    font-size: 15px;
+    line-height: 40px;
+    width: 110px;
+    height: 40px;
+    background-color: #17a7d9;
+    border-radius: 5px;
+    color: #fff;
+}
+.board_btn .list:hover{
+	background-color:#27b4e4;
+}
+
+
+
+
+
+
+
+
+
+
+/* sub2_1 판매점 찾기 */
+.sub3_1area{
+	min-height:733px;
+}
+.sub31_tab{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+}
+
+/*탭*/
+.store_searchTab{
+	overflow: hidden;
+    padding: 0px 0 20px 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.store_searchTab li{
+	float: left;
+    width: 50%;
+}
+
+.store_searchTab li a{
+	font-size: 16px;
+    font-weight: bold;
+    border-bottom: 3px solid #d9d9d9;
+    color: #848484;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+	padding-top:30px;
+    width: 100%;
+    height: 26px;
+    text-decoration: none;
+}
+
+.store_searchTab li a.active{
+	color: #333;
+    border-bottom: 3px solid #2d2d2d;
+}
+
+
+
+
+
+
+
+/* sub2_1 탭1 */
+.sub2_1form_area{margin-bottom: 1px;}
+.sub2_1form{
+	padding: 5% 3%;
+    background-color: #e5e5e5;
+}
+.sub2_1form form{
+	display: inline-block;
+    width: 100%;
+}
+.sub2_1form form fieldset{}
+.sub2_1form form fieldset ul{
+	position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.sub2_1form form fieldset ul li{float: left;}
+.sub2_1form form fieldset ul li.search21_input{width: 100%;}
+.sub2_1form form fieldset ul li.search21_btn{
+	position: absolute;
+    top: 8px;
+    right: 12px;
+}
+
+.sub21_bar{
+	width: 98%;
+    border: 0;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 2%;
+}
+.syb21_loginbtn{}
+
+
+
+
+
+
+.sub21_storeChoi{}
+.storeChoi_title{
+	background-color: #e8e8e8;
+    border-bottom: 1px solid #b5b5b5;
+    padding: 10px 0;
+    margin-bottom: 1px;
+
+	background-image:url(/img/mobile/sub/sub2/sub2_1/sub21_arrow.png);
+	background-repeat:no-repeat;
+	background-position: 97% 9px;
+}
+.storeChoi_title h3{
+	font-size: 18px;
+    font-weight: 600;
+    padding: 0 3%;
+}
+
+.storeChoi_check{}
+.storeChoi_check ul{
+	background-color: #f3f3f3;
+    padding: 4% 3%;
+}
+.storeChoi_check ul li{
+	display: inline-block;
+    width: 49%;
+	font-size: 15px;
+    color: #4c4c4c;
+	margin-bottom: 15px;
+}
+.storeChoi_check ul li input{}
+
+.sub21_active{background-position: 97% -37px;}
+
+
+
+
+
+
+/*판매점 찾기 테이블*/
+.sub2_1board{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.sub2_1board_title{
+	border-bottom: 1px solid #252525;
+}
+.table_number{
+	font-size: 18px;
+    font-weight: bold;
+    padding-left: 3%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.table_number span{color: #b90808;}
+
+
+.sub2_1info_area{
+    border-bottom: 1px solid #ccc;
+}
+.sub21_info{
+	padding: 3%;
+
+	background-image: url(/img/mobile/sub/sub2/sub2_1/sub21_arrow1.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50px;
+}
+.sub21_info h3{
+	font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.sub21_info a{
+	display: inline-block;
+    width: 70%;
+}
+
+.sub21_info a:hover{
+	text-decoration:none;
+}
+.sub21_info a:hover p{
+	color:#00aee9;
+}
+
+.sub21_info_add{
+	font-size: 15px;
+    color: #909090;
+    margin-bottom: 5px;
+}
+.sub21_info_tel{
+	font-size: 15px;
+    color: #909090;
+
+	background-image: url(/img/mobile/sub/sub3/sub3_1/sub31list_icon2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+	padding-left:23px;
+	padding-bottom:2px;
+	line-height: 22px;
+}
+.sub21_info ul{
+	display:block;
+	overflow:hidden;
+	margin-top:10px;
+}
+.sub21_info ul li{
+	float:left;
+	margin-right: 5px;
+}
+
+.img_pin{
+	position: absolute;
+    bottom: 30%;
+    right: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.sub21_map{
+	display: none;
+}
+.sub21_map_area{}
+.sub21_map_area img{width:100%;}
+
+
+.sub21_active1{
+	background-position: 95% -170px;
+}
+
+
+
+
+
+
+/* sub2_1 탭2 */
+.sub2_1form1{
+	padding: 5% 3%;
+    background-color: #e5e5e5;
+}
+
+.sub2_1form1 li{
+	display: inline-block;
+	width: 48.8%;
+}
+
+.sub2_1form1 li select{
+	width: 98%;
+    border: 0;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 2%;
+	background-color:#fff;
+}
+
+
+.false_txt{
+	font-size: 16px;
+    text-align: center;
+    padding: 70px 0;
+    color: #b1b1b1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sub2_2 전체판매점 안내 list */
+.sub22_board{
+	width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    padding-top: 30px;
+}
+.sub22_board_area{
+	padding: 0 3% 20px 3%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.sub22_board_area a{
+	display: inline-block;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sub22_td1{
+	width: 30%;
+	padding: 0 2%;
+}
+.sub22_td2{padding: 0 0% 0 5%;}
+
+.sub22_board_info{
+	/*
+	float: right;
+    width: 60%;
+	*/
+}
+.sub22_board_info h3{
+	font-size: 19px;
+    margin-bottom: 15px;
+}
+.sub22_board_info p{
+	font-size: 14px;
+    color: #828282;
+	line-height: 22px;
+}
+
+.sub22_board_img{
+	/*
+	float: left;
+    width: 30%;
+	*/
+}
+.sub22_imgArea{}
+.sub22_imgArea img{width:100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sub3_1 브랜드별 보기 list */
+.sub3_1List{
+	width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+	min-height:443px;
+}
+
+.sub31_List_area{
+	padding:0 3%;
+	width:94%;
+	margin-bottom: 30px;
+	display: inline-block;
+	
+}
+.sub31_List_area li{
+	width: 48%;
+    /* display: inline-block; */
+    border: 1px solid #b1b1b1;
+    /* margin-right: 2%; */
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    height: 140px;
+}
+/*.sub31_List_area li:nth-child(2n){margin-right:0;}*/
+.sub31_List_new{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.sub31_List_new img{}
+
+.sub31_List_area li a{
+	display: block;
+    text-decoration: none;
+    padding: 40px 20px 79px 20px;
+}
+.sub31_List_area li a .sub31_ListImg{
+	width: 65.2%;
+    margin: 26px auto 35px auto;
+} 
+.sub31_List_area li a .sub31_ListImg img{width:100%; min-height:72px;} 
+.sub31_List_area li a p{
+	font-size: 18px;
+    color: #616161;
+	padding:0 3%;
+} 
+
+.sub31_List_area li a:hover p{
+	color: #020202;
+}
+
+
+
+
+/* 3_1 view */
+.sub3_1view_area{
+	width:100%;
+	max-width: 800px;
+    margin:0 auto;
+}
+
+.sub3_1view_top{
+	width:100%;
+	height:300px;
+	background-image:url(/img/mobile/sub/sub3/sub3_1/3_1_img1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	position: relative;
+}
+.sub3_1view_top h2{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -40px;
+}
+.sub3_1view_top h2 a{
+	display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.sub3_1view_top h2 a img{width: 100%;}
+
+.sub3_1view_topBlack{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.sub3_1topTxt{
+	background-color: #eff0f2;
+    text-align: center;
+    font-size: 16px;
+    color: #6f6f6f;
+    margin: 0px 0 8px 0;
+    padding: 0 3% 3% 3%;
+}
+.sub3_1topTxt h4{
+	font-weight: 500;
+    padding: 20px 0;
+    line-height: 24px;
+}
+.sub3_1topTxt .logoArea{
+	width: 40%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+.sub3_1topTxt .logoArea img{}
+
+
+.sub3_1view{
+	width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.sub31_view_area{
+	margin-bottom: 40px;
+	min-height:281px;
+}
+
+/*탭*/
+.benefit_searchTab{
+	overflow: hidden;
+    padding: 0px 0px 10px 0;
+    text-align: center;
+}
+
+.benefit_searchTab li{
+	float: left;
+    width: 50%;
+}
+
+.benefit_searchTab li a{
+	font-size: 16px;
+    font-weight: bold;
+    border-bottom: 3px solid #d9d9d9;
+    color: #848484;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-decoration: none;
+}
+
+.benefit_searchTab li a.active{
+	color: #333;
+    border-bottom: 3px solid #2d2d2d;
+}
+
+
+
+
+.sub31_viewTab{
+	padding:3%;
+}
+.sub31_viewTab .sub31_viewEX{
+	font-weight: normal;
+    line-height: 24px;
+	font-size: 15px;
+	color: #7d7d7d;
+}
+
+.sub31_viewTab .sub31_viewEX p{
+	font-weight: normal;
+    line-height: 24px;
+	font-size: 15px;
+	color: #7d7d7d;
+}
+
+.sub31_viewEX_guide{
+	font-weight: normal;
+    line-height: 24px;
+	font-size: 15px;
+	color: #7d7d7d;
+	word-break: break-all;
+}
+.sub3_benefit{
+	margin-bottom:20px;
+	width:100%;
+	border-top:1px solid #dcdcdc;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+}
+
+.sub3_benefit td{
+	border-bottom: 1px solid #dcdcdc;
+	padding:3%;
+}
+.sub3_benefit td.sub3_benefitIMG{
+	text-align: center;
+	width:20%;
+}
+.sub3_benefit td.sub3_benefitTXT{}
+
+.sub3_benefit td img{
+	
+}
+.sub3_benefit td p{
+	font-size: 15px;
+    line-height: 22px;
+	color: #7d7d7d;
+}
+
+
+/*지워야할것*/
+.sub3_benefit{margin-bottom:20px;}
+.sub3_benefit li{
+	overflow: hidden;
+    border: 1px solid #dcdcdc;
+    margin-top: -1px;
+    padding: 3%;
+}
+.sub3_benefit li h3{
+	float: left;
+	width:23%;
+    margin-right: 6%;
+}
+.sub3_benefit li p{
+	float: left;
+    font-size: 15px;
+    color: #7d7d7d;
+    margin-top: 1.5%;
+	width:70%;
+}
+/*지워야할것*/
+
+
+
+.sub31_viewTab_map{
+	padding-top:3%;
+	margin-bottom:10px;
+}
+
+.sub31_guideTitle{
+	font-size:18px;
+	margin-bottom:12px;
+}
+.sub31_viewTab_area{
+	margin-bottom:50px;
+}
+
+
+
+.sub31_guideBtn{
+	text-align: center;
+    font-size: 16px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+	margin-bottom: 20px;
+}
+.sub31_guideBtn li{
+	display: inline-block;
+    width: 31%;
+    border-right: 1px solid #ccc;
+}
+.sub31_guideBtn li:last-child{border-right: 0;}
+
+.sub31_guideBtn li a{
+	display: block;
+    text-decoration: none;
+    color: #415d72;
+}
+.sub31_guideBtn li a h3{
+	margin-bottom: 8px;
+}
+.sub31_guideBtn li a p{}
+
+
+.sub31_guideInfo{}
+.sub31_guideInfo li{
+	overflow: hidden;
+    margin-bottom: 6px;
+}
+
+.guideInfo_icon1{
+	float:left;
+	width:19px;
+	height:19px;
+	padding-right: 3px;
+	
+	background-image:url(/img/mobile/sub/sub3/sub3_1/sub31list_icon1.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.guideInfo_icon2{
+	float:left;
+	width:19px;
+	height:19px;
+	padding-right: 3px;
+	
+	background-image:url(/img/mobile/sub/sub3/sub3_1/sub31list_icon2.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.guideInfo_icon3{
+	float:left;
+	width:19px;
+	height:19px;
+	padding-right: 3px;
+	
+	background-image:url(/img/mobile/sub/sub3/sub3_1/sub31list_icon3.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.guideInfo_icon4{
+	float:left;
+	width:19px;
+	height:19px;
+	padding-right: 3px;
+	
+	background-image:url(/img/mobile/sub/sub3/sub3_1/sub31list_icon4.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+
+.guideInfo_info{
+	float:left;
+	font-size: 15px;
+    color: #4c4c4c;
+}
+
+
+.sub31_guideTraffic{
+	display: inline-block;
+    width: 100%;
+}
+.sub31_guideTraffic li{
+	display: inline-block;
+    width: 47%;	
+	margin-bottom:3%;
+}
+
+.sub31_guideTraffic li:last-child{float:right;}
+.sub31_guideTraffic li:first-child{float:left;}
+.sub31_guideTraffic li:nth-child(2n){float:right;}
+
+.sub31_guideTraffic_us{}
+.sub31_guideTraffic_us li{}
+.sub31_guideTraffic_us li .guideTraffic_icon{}
+.sub31_guideTraffic_us li .guideTraffic_icon img{}
+
+
+.guideTraffic_icon{
+	float: left;
+    margin-right: 10px;
+    width: 13%;
+}
+.guideTraffic_icon img{width:100%;}
+.guideTraffic_txt{float: left;}
+
+.Traffic_txt1{
+	font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.Traffic_txt2{font-size: 15px;}
+
+
+.sub31_guideBus{}
+.sub31_guideBus li{
+	overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.guideBus_name{
+	float: left;
+    width: 14%;
+    margin-right: 20px;
+}
+.guideBus_name_icon{
+	float: left;
+    margin-right: 10px;
+}
+.guideBus_name_txt{
+	float: left;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.guideBus_info{
+	float: left;
+    /*width: 68%;*/
+    font-size: 15px;
+    color: #4c4c4c;
+    line-height: 22px;
+	margin-top: 3px;
+}
+
+
+
+.sub31_guideBus_us{}
+.sub31_guideBus_us li{}
+.sub31_guideBus_us li .guideBus_name{
+	width: 26%;
+}
+.sub31_guideBus_us li .guideBus_name .guideBus_name_icon{}
+.sub31_guideBus_us li .guideBus_name .guideBus_name_txt{
+	font-size: 13px;
+}
+
+.sub31_guideBus_us li .guideBus_info
+
+
+
+
+
+
+
+
+/* sub3_2 혜택분류별 보기 */
+
+/* 리스트 버튼 */
+.sub3_2contents{
+	min-height:606px;
+}
+
+.sub3_2navi{
+	border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #efefef;
+	height:105px;
+	margin-bottom: 20px;
+}
+.sub32_navi{
+	text-align: center;
+}
+.sub32_navi li{
+	display: inline-block;
+}
+.sub32_navi li:first-child{background-image:none;}
+.sub32_navi li a{text-decoration:none;}
+.sub32_navi li a .sub31_icon{
+	width: 49px;
+    height: 49px;
+    margin: 0 auto 10px auto;
+}
+.sub32_navi li a p{
+	font-size:14px;
+	color:#797979;
+}
+
+.sub32_navi li a .sub32_navi_us{
+	font-size: 12px;
+	width: 95%
+}
+
+.sub32_navi li a .sub32_navi_jp{
+	font-size: 12px;
+}
+
+
+.sub32_navi li a .sub31_icon1{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon1.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon2{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon2.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon3{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon3.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon4{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon4.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon5{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon5.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon6{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon6.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon7{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon7.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon8{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon8.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon9{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon9.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.sub32_navi li a .sub31_icon10{
+	background-image: url(/img/sub/sub3/sub3_2/sub31_icon10.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+
+
+.sub32_navi li a:hover .sub31_icon1{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon2{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon3{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon4{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon5{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon6{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon7{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon8{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon9{background-position: 0px -51px;}
+.sub32_navi li a:hover .sub31_icon10{background-position: 0px -51px;}
+
+.sub32_navi li a:hover p{
+	color:#2a5c82;
+	font-weight:bold;
+}
+
+.sub32_navi li a.s32_act div{background-position: 0px -51px !important;}
+.sub32_navi li a.s32_act p{
+	color:#2a5c82;
+	font-weight:bold;
+}
+
+
+
+
+
+.sub32_listAll{
+	border-bottom: 2px solid #333;
+    max-width: 768px;
+    margin: 0 auto 35px auto;
+}
+.sub32_listAll h2{
+	padding-left: 3%;
+    font-size: 15px;
+    margin-bottom: 9px;
+}
+.sub32_listAll h2 span{color: #00aee9;}
+
+.sub32_areaBtn{
+	display: block;
+	text-decoration:none;
+}
+
+.sub32_areaBtn:hover{
+	text-decoration:none;
+	color:#333; 
+}
+
+.sub32_cont{
+	width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.sub32_cont_area{padding: 0 3%;}
+.sub32_cont_area_head{
+	background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+.sub32_cont_area_head h3{
+	display: inline-block;
+	width: 27.7%;
+	margin-right:10px;
+}
+.sub32_cont_area_head h3 img{width:100%;}
+.sub32_cont_area_head p{
+	display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    width: 50%;
+	vertical-align: middle;
+}
+
+.sub32_cont_area_cont{margin-bottom: 30px;}
+.sub32_cont_area_cont li{
+	padding-left: 10px;
+    background-image: url(/img/mobile/sub/sub3/sub3_2/sub31_dot.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 11px;
+    line-height: 27px;
+	font-size:15px;
+	color:#757575;
+}
+
+.sub32_cont_areaBtn{
+	text-align: center;
+    font-size: 18px;
+    width: 90px;
+    overflow: hidden;
+    margin: 0 auto 30px auto;
+    border-bottom: 1px solid #333;
+}
+
+.sub32_cont_areaBtn_us{
+	text-align: center;
+    font-size: 18px;
+    width: 130px;
+    overflow: hidden;
+    margin: 0 auto 30px auto;
+    border-bottom: 1px solid #333;
+}
+
+.sub32_areaBtn:hover .sub32_cont_areaBtn{
+	/* border-bottom: 1px solid #00aee9; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* sub4_1 추천여행코스 */
+/* sub4_1 list */
+.sub4_trafficTab{}
+
+/*탭*/
+.traffic_searchTab{
+	overflow: hidden;
+    padding: 0px 0 30px 0;
+    text-align: center;
+}
+
+.traffic_searchTab li{
+	float: left;
+    width: 50%;
+}
+
+.traffic_searchTab li a{
+	font-size: 16px;
+    font-weight: bold;
+    border-bottom: 3px solid #d9d9d9;
+    color: #848484;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+	padding-top:20px;
+    width: 100%;
+    height: 26px;
+    text-decoration: none;
+}
+
+.traffic_searchTab li a.active{
+	color: #333;
+    border-bottom: 3px solid #2d2d2d;
+}
+
+
+
+.traffic_searchTab_us{}
+.traffic_searchTab_us li{}
+.traffic_searchTab_us li a{
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* dec1 */
+.tourinfo_ul{
+	margin-bottom:0px;
+}
+.tourinfo_ul li{
+    width:100%;
+    height:260px;
+    margin-bottom:1px;
+}
+.tourinfo_div{
+    width:100%;
+    height:100%;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position: 0 -93px;
+	position: relative;
+}
+.tourinfo_div_div1{
+    position: absolute;
+	top: 45%;
+    left: 5%;
+	z-index:2;
+}
+
+.tourinfo_div_div1 span{
+    font-size:28px; 
+	color:#fff;
+	font-weight:500;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.56);
+}
+
+.tourinfo_div_div2{
+    position: absolute;
+	top: 31%;
+    right: 4%;
+	z-index:2;
+}
+
+.tourinfo_ul1 li .tourinfo_div_div2{
+	top: 15%;
+    right: 8%;
+}
+
+.tourinfo_ulBG{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.65);
+}
+
+
+
+
+
+
+
+.sub4_1List{margin-bottom: 30px;}
+.sub4_1List_imgArea{position: relative;}
+.sub4_1List_img{
+	height: 400px;
+    overflow: hidden;
+}
+.sub4_1List_img img{
+	width: 100%;
+    margin-top: -15%;
+}
+
+.sub4_1List_img1{
+	text-align:center;
+}
+.sub4_1List_img1 img{
+
+}
+
+.sub4_1List_Black{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+.sub4_1List_title{
+	position: absolute;
+    bottom: -3px;
+    left: 3%;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 2px -2px 2px rgba(0, 0, 0, 0.81);
+	z-index:2;
+}
+
+.sub4_1List_txt{
+	padding:3%;
+}
+.sub4_1List_txt p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #7d7d7d;
+}
+
+
+
+
+
+/* sub4_1 view */
+.sub4_1view{}
+.sub4_1view_img{}
+.sub4_1view_img img{width:100%;}
+
+.sub4_1view_txt{padding:3%;}
+.sub4_1view_txt p{
+	font-size: 15px;
+    line-height: 21px;
+    color: #5f5f5f;
+}
+
+.sub4_1view_loca{
+	padding: 0 3%;
+    position: relative;
+    height: 100px;
+    margin: 12% auto 5% auto;
+}
+.sub4_1view_loca ul{
+	position: absolute;
+    width: 94%;
+    top: -5px;
+}
+.sub4_1view_loca ul li{
+	display: inline-block;
+    width: 16%;
+    text-align: center;
+	position: relative;
+}
+
+.sub4_1view_loca ul li:nth-child(1n) h3{top: 25px;}
+.sub4_1view_loca ul li:nth-child(2n) h3{top: -37px;}
+.sub4_1view_loca ul li:last-child{float: right;}
+.sub4_1view_loca ul li:last-child h3{right:0;}
+.sub4_1view_loca ul li:last-child p{right:0;}
+
+.sub4_1view_loca ul li h3{
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	color: #808080;
+	font-size:11px;
+
+	overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.sub4_1view_loca ul li p{
+	width: 10px;
+    height: 10px;
+    background-color: #00aee9;
+    border-radius: 10px;
+    margin: 0 auto 0 auto;
+}
+
+.sub41_locaLine{
+	border-bottom:1px solid #ccc;
+	width:85%;
+	margin:0 auto;
+}
+
+.sub41_locaMap{
+	border-bottom: 3px solid #e5e5e5;
+    padding-bottom: 8%;
+    margin-bottom: 8%;
+}
+.sub41_locaMap img{width:100%;}
+
+.sub41_locaList_img{}
+
+.sub41_locaList_txt{
+	padding: 4% 3%;
+}
+.sub41_locaList_txt h2{
+	font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.sub41_locaList_txt ul{margin-bottom: 20px;}
+.sub41_locaList_txt ul li{
+	font-size: 17px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.sub41_locaList_txt ul li a{
+	display: block;
+}
+
+.sub41_locaList_txt ul li h4{
+	float:left;
+	width: 14%;
+}
+.sub41_locaList_txt ul li p{
+	float:left;
+	color: #656565;
+	width:85%;
+}
+
+.sub4_1snsBtn{
+	text-align:center;
+	margin-bottom:100px;
+	margin-top:60px;
+}
+.sub4_1snsBtn li{
+	display: inline-block;
+	margin:0 2px;
+}
+
+
+
+
+
+.sub41_locaList_txt_us ul li{
+	font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sub4_2 교통정보 안내 */
+.sub4_2_area{padding:0 3%;}
+.sub4_2_list{
+	display: inline-block;
+	width:100%;
+	margin-bottom:150px;
+}
+.sub4_2_list .sub42_list{
+	width: 48%;
+    height: 516px;
+    float: left;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 3%;
+	margin-bottom:5%;
+}
+.sub4_2_list .sub42_list:nth-child(2n){margin-right:0;}
+
+.sub4_2_list .sub42_list div{padding: 10% 5%;}
+.sub4_2_list .sub42_list div img{margin-bottom: 30px;}
+.sub4_2_list .sub42_list div h3{
+	font-size: 18px;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding: 8px 0;
+    width: 120px;
+    margin: 0 auto 30px auto;
+}
+
+.sub42_btn{font-size: 15px;}
+.sub42_btn li{line-height: 35px;}
+.sub42_btn li a{color: #656565;}
+.sub42_btn li a:hover{
+	color:#0684d0;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+/* sub4_3 행사 안내 */
+.sub4_3_list{}
+.calendar_area{
+	text-align: center;
+	padding:0 3%;
+}
+.calendar_img{
+	margin-bottom: 20px;
+}
+.calendar_img img{
+	width:95%;
+}
+
+.calendar_btn{
+	display: inline-block;
+	width:100%;
+	margin-bottom:80px;
+}
+.calendar_btn li{}
+.calendar_btn li a{
+	text-decoration:none;
+	font-size:15px;
+}
+.calendar_btn li a i{
+	color: #808080;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.calendar_btn li a:hover{color: #00a3e0;}
+.calendar_btn li a:hover i{
+	color: #00a3e0;
+}
+
+.sub4_3calendar{
+	position: relative;
+}
+.calendar_left{
+	position: absolute;
+    top: 34%;
+    left: 3%;
+}
+
+.calendar_right{
+	position: absolute;
+    top: 34%;
+    right: 3%;
+}
+
+.sub43_list{
+	margin-bottom: 30px;
+	padding:0 3%;
+	overflow:hidden;
+}
+.sub43_list li{
+	display: inline-block;
+	float:left;
+	border:1px solid #afafaf;
+	border-radius:5px;
+	width: 48.4%;
+	height:263px;
+	margin-bottom: 3%;
+}
+.sub43_list li:nth-child(2n){
+	float:right;
+}
+.sub43_list li .sub43_listArea{
+	padding: 7%;
+	font-size: 14px;
+	color: #737373;
+}
+
+.sub4_3calendar_title{
+	text-align: center;
+    padding: 3% 0 2% 0;
+    font-size: 20px;
+	margin-bottom:25px;
+}
+
+.sub43_list_txt{
+	margin-bottom: 20px;
+	font-size:18px;
+	color:#383838;
+	height: 130px;
+
+	overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.calendar_txt1{
+	margin-bottom: 5px;
+}
+.calendar_txt2{
+	margin-bottom: 5px;
+}
+.calendar_txt3{}
+
+
+
+
+
+
+
+
+
+
+
+/* sub4_4 이벤트안내 */
+.sub44_list{margin-bottom: 80px;}
+.sub44_list li{
+	margin-bottom:15px;
+}
+
+.sub44_list li a.sub44_list_link{
+	text-decoration: none;
+    display: block;
+    position: relative;
+	color:#333;
+}
+
+.sub44_list li a.sub44_list_link img{width:100%;}
+
+.sub44_list_img{
+	width:100%;
+	height:160px;
+}
+
+
+.sub44_img1{
+/*
+	background-image:url(/img/mobile/sub/sub4/sub4_4/sub44_listBtn1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	*/
+	background:#cdf2f8 url(/img/mobile/sub/sub4/sub4_4/sub44_listBtn1.jpg) no-repeat right bottom;
+}
+.sub44_img2{
+	background:#fceaea url(/img/mobile/sub/sub4/sub4_4/sub44_listBtn2.jpg) no-repeat right bottom;
+}
+.sub44_img3{
+	background:#95caf2 url(/img/mobile/sub/sub4/sub4_4/sub44_listBtn3.jpg) no-repeat right bottom;
+}
+
+.sub44_list_txt{
+/*
+	position: absolute;
+    top:20px;
+	margin:auto;
+    left: 3%;
+	*/
+	position:absolute;
+	top:22px;;left:10px;
+	height:140px;
+	
+}
+.sub44_list_txt h3{
+	font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.sub44_list_txt .sub44_txt{
+	font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+.sub44_list_txt .sub44_btn{
+	position:absolute;
+    font-size: 13px;
+    border: 1px solid #000;
+    padding: 5px 0;
+    text-align: center;
+    width: 130px;
+    border-radius: 100px;
+	bottom:20px;;
+	vertical-align:bottom;
+	transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.sub44_list_txt .sub44_btn span{
+	font-family:'dotum';
+	margin-left:8px;
+}
+
+.sub44_list li a:hover .sub44_list_txt .sub44_btn{
+	border:1px solid #1cacde;
+	background-color:#1cacde;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* sub4_5 FAQ자주하는 질문 */
+/*탭*/
+.FAQTab{
+	overflow: hidden;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.FAQTab li{
+	float: left;
+    width: 25%;
+
+}
+
+.FAQTab li a{
+	font-size: 16px;
+    font-weight: bold;
+    border-bottom: 3px solid #d9d9d9;
+    color: #848484;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 26px;
+    text-decoration: none;
+}
+
+.FAQTab li a.active{
+	color: #333;
+    border-bottom: 3px solid #2d2d2d;
+}
+
+
+
+
+
+
+
+.sub4_5form_area{
+	border-bottom: 2px solid #8a8a8a;
+}
+.sub4_5form{
+	padding: 5% 3%;
+}
+.sub4_5form form{
+	display: inline-block;
+    width: 100%;
+}
+.sub4_5form form fieldset{}
+.sub4_5form form fieldset ul{
+	position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.sub4_5form form fieldset ul li{float: left;}
+.sub4_5form form fieldset ul li.search45_input{width: 100%;}
+.sub4_5form form fieldset ul li.search45_btn{
+	position: absolute;
+    top: 8px;
+    right: 12px;
+}
+
+.sub45_bar{
+	width: 98%;
+    border: 0;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 2%;
+
+	border: 1px solid #d4d4d4;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.sub45_storeChoi{
+	margin-bottom: 120px;
+}
+
+.sub2_1board{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.sub4_5board_title{
+	border-bottom: 1px solid #252525;
+}
+
+.sub4_5info_area{}
+.sub45_info{
+	padding: 3%;
+	border-bottom: 1px solid #ccc;
+
+	background-image: url(/img/mobile/sub/sub4/sub4_5/sub41_arrow.png);
+    background-repeat: no-repeat;
+    background-position: 95% 55px;
+}
+.sub45_info h3{
+	font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+.sub45_info table{
+	font-size: 14px;
+    color: #909090;
+    margin-bottom: 15px;
+	width:88%;
+}
+.sub45_info table td{
+	line-height:23px;
+}
+.sub45_info table td font{
+	font-family: 'Nanum Barun Gothic', sans-serif !important;
+	font-size:14px !important;
+}
+.sub45_info table td span{
+	margin-right:7px;
+	font-family: 'Nanum Barun Gothic', sans-serif !important;
+	font-size:14px !important;
+}	
+
+
+
+
+
+
+
+
+
+
+
+.sub45_info_date{
+	font-size: 13px;
+    color: #909090;
+	padding-left: 4.5%;
+}
+
+
+
+.sub45_a{
+	display: none;
+	padding:3%;
+	border-bottom:1px solid #ccc;
+	background-color: #f7f7f7;
+}
+.sub45_a_area{}
+.sub45_a_area table{}
+.sub45_a_area table td{
+	font-size: 14px;
+    color: #4c4c4c;
+    margin-bottom: 10px;
+	line-height: 23px;
+}
+
+.sub45_a_area table td font{
+	font-family: 'Nanum Barun Gothic', sans-serif !important;
+	font-size:14px !important;
+}
+
+
+.sub45_active1{
+	background-position: 95% -102px;
+}
+
+
+
+
+
+
+
+
+
+
+/* sub4_6 공지사항 */
+.sub4_6form_area{
+	border-top:1px solid #ccc;
+	border-bottom: 1px solid #888;
+	position: relative;	
+}
+.sub4_6form{
+	padding: 5% 3%;
+}
+
+.sub4_6form_area form{
+	display: inline-block;
+    width: 100%;
+}
+.sub4_6form_area form fieldset{}
+.sub4_6form_area form fieldset ul{
+	position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.sub4_6form_area form fieldset ul li{float: left;}
+.sub4_6form_area form fieldset ul li.search45_input{width: 100%;}
+.sub4_6form_area form fieldset ul li.search45_btn{
+	position: absolute;
+    top: 8px;
+    right: 12px;
+}
+
+
+
+.sub46_list{
+	margin-bottom: 30px;
+}
+.sub46_list li{
+	overflow: hidden;
+	border-bottom:1px solid #ccc;
+	padding:3%;
+}
+.sub46_list li a{
+
+}
+
+.sub46_list li.sub46_notice{
+	background-color:#f2f2f2;
+}
+.sub46_list li.sub46_notice .sub46_list_txt h2{
+	color:#000;
+}
+
+.sub46_list_txt{
+	float: left;
+    width: 85%;
+}
+.sub46_list_txt h3{
+	display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 15px;
+    background-color: #00aee9;
+    font-size: 10px;
+    color: #fff;
+    line-height: 17px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.sub46_list_txt h2{
+	font-size: 16px;
+    margin-bottom: 7px;
+    color: #888;
+	line-height:21px;
+}
+.sub46_list_txt .sub46_list_date{
+	font-size: 13px;
+    color: #9e9e9e;
+}
+
+.sub46_list_icon{
+	float: right;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sub5_1 통합검색 */
+.sub5_1form_area{
+	margin-bottom:40px;
+}
+
+
+.sub5_1List{
+	margin-bottom: 75px;
+	min-height:237px;
+}
+.sub51List_title{border-bottom: 1px solid #333;}
+.sub51List_title h2{
+	font-size: 20px;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+.sub51List{}
+.sub51List li{
+	padding: 3%;
+    border-bottom: 1px solid #ccc;
+}
+
+.sub51List_area{
+	display: inline-block;
+    width: 100%;
+}
+.sub51List_info{
+	float: left;
+    width: 100%;
+}
+
+.sub51List_info a{
+	color:#000;
+	display: inline-block;
+    width: 100%;
+}
+
+.sub51List_info a .sub51List_info_txt{
+	float: left;
+    width: 80%;
+}
+
+.sub51List_info_txt h3{
+	font-size: 18px;
+    margin-bottom: 5px;
+}
+.sub51info_add{
+	font-size: 15px;
+    color: #717171;
+    margin-bottom: 10px;
+}
+.sub51info_tel{font-size: 15px;}
+.sub51info_tel a{
+	color: #005be9;
+    text-decoration: underline;
+
+	background-image: url(/img/mobile/sub/sub3/sub3_1/sub31list_icon2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding-left: 25px;
+	line-height: 22px;
+}
+
+
+.sub51List_icon{
+	float: right;
+    padding-right: 2%;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+
+
+.sub51List1{
+	width:100%;	
+	display: inline-block;
+}
+.sub51List1 td{
+	padding: 3%;
+    border-bottom: 1px solid #ccc;
+}
+.sub51List1 td.sub5_1List_more_btn{
+	width:100%;
+	border:0;
+	padding:0;
+}
+.sub51List1 li a{
+	text-decoration:none;
+}
+
+.sub51List_info1{
+
+}
+.sub51List_info1 a{
+	text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+.sub51List_info1 a:hover .sub51List_info1_txt h3{
+	color:#333;
+}
+.sub51List_info1_txt{
+	width: 80%;
+    float: left;
+}
+
+.sub51List_info1_txt h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.sub51List_info1_txt p{
+	font-size: 15px;
+    color: #717171;
+}
+
+.sub51info_img{
+
+}
+
+.sub51List_more{
+	position: absolute;
+    top: 50%;
+    right: 6%;
+    margin-top: -15px;
+}
+
+.sub51info_img img{width:100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subMore_btn{
+	width: 100%;
+    max-width: 786px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+.subMore_btn_area{
+	padding:0 3%;
+	margin-bottom: 60px;
+}
+.subMore_btn_area a{
+	display: block;
+    text-decoration: none;
+    border: 1px solid #333;
+    text-align: center;
+    height: 48px;
+    vertical-align: middle;
+	cursor: pointer;
+}
+.subMore_icon{
+	background-image:url(/img/mobile/sub/subMoreBtn_icon.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+
+	width: 26px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.subMore_info{
+	display: inline-block;
+    font-size: 17px;
+    vertical-align: middle;
+    margin-top: 14px;
+}
+
+.subMore_btn a:hover .subMore_icon{
+	background-position:0px -28px;
+}
+
+.subMore_btn a:hover{
+	background-color:#333;
+	color:#fff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 414px) { /* 아이폰6+ 해상도 */
+	/* sub1_1 코리아투어카드 혜택 */
+	.sub11_title1{font-size:22px;}
+
+	.sub11_img2{
+		width: 68%;
+		margin: 0 auto;
+	}
+	.sub11_img2 img{width:100%;}
+
+	.sub11_title2{font-size:22px;}
+
+
+
+
+
+	/* sub1_2 코리아투어카드 정보 */
+	.sub1_2area h3{font-size:21px;}
+
+	.sub12_table_us td.sub12_tdBold{
+		font-size: 14px;
+	}
+
+	.sub12_table_jp td.sub12_tdBold{
+		font-size: 13px;
+	}
+
+	.sub12_table_cn{
+		font-size: 13px;
+	}
+
+	.sub12_table_cn td.sub12_tdBold{
+		font-size: 13px;
+	}
+
+	.sub12_table_tw{
+		font-size: 13px;
+	}
+
+	.sub12_table_tw td.sub12_tdBold{
+		font-size: 13px;
+	}
+
+
+
+
+	/* sub1_3 코리아투어카드 홍보센터 list */
+	.sub13_info_txt{
+		margin-bottom: 20px;
+	}
+
+
+
+
+
+	/* sub2_1 판매점 찾기 */
+	.sub21_info{
+		padding:5% 3%;
+		background-position: 95% 50px;
+		background-size:10%;
+	}
+
+	.sub21_active1 {
+		background-position: 95% -102px;
+	}
+
+	.sub2_1form1 li {
+		width: 48.5%;
+	}
+	.sub21_info_add{
+		width:260px;
+		line-height:22px;
+	}
+	.sub21_map_area #map{
+		height:320px !important;
+	}
+	.sub41_locaMap #map{
+		height:260px !important;
+	}
+
+	.img_pin {
+		bottom: 36%;
+		width: 10%;
+	}
+
+
+
+
+
+	/* sub2_2 전체판매점 안내 list */
+	.sub22_board_info {
+		/* width: 50%; */
+	}
+	
+	.sub22_board_img {
+		/* width: 45%; */
+	}
+	.sub22_imgArea {
+		/* width: 78%; */
+		margin: 0 auto 0 auto;
+	}
+
+
+
+
+
+
+
+	/* sub3_1 브랜드별 보기 list */
+	.sub3_1area{
+		min-height:380px;
+	}
+	.sub3_1List{
+		min-height:200px;
+	}
+	.sub31_List_area li {
+		height: 190px; /*130px sub3_3과 연결됨 2017-10-26*/
+	}
+	.sub31_List_area li a{
+		padding: 5px 0 31px 0;
+	}
+
+	.sub31_List_area li a .sub31_ListImg{
+		width: 89%;
+		margin: 21px auto 22px auto;
+	}
+	.sub31_List_area li a p{
+		font-size: 15px;
+	}
+	
+	.sub3_1List .sub31_List_area_us li a div{
+		margin: 21px auto 7px auto;
+	}
+	.sub3_1List .sub31_List_area_us li a div img{}
+	.sub3_1List .sub31_List_area_us li a p{
+		font-size: 13px;
+	}
+	.sub31_List_area .info{top:40px;}
+
+	/* 3_1 view */
+	.sub3_1view_top{
+		height:170px !important;
+	}
+	.sub3_1topTxt .logoArea img {
+		width: 100%;
+	}
+	.sub3_1view_top h2 {
+		top: 45%;
+	}
+	.sub3_1view_top h2 a {
+		width: 55%;
+	}
+	.sub3_1topTxt .logoArea{
+		
+	}
+	.sub31_guideBtn li{
+		
+	}
+	.sub3_benefit li h3{
+		width: 40%;
+		margin-right: 3%;
+	}
+	.sub3_benefit li h3 img{
+		width: 100%;
+	}
+
+	.sub3_benefit li p{	
+		font-size: 12px;
+		width: 55%;
+		margin-top: 6px;
+		line-height: 17px;
+	}
+	.sub31_guideBtn li a h3 img{width:36%;}
+
+	.guideInfo_info {width: 85%;}
+	.guideInfo_icon1,.guideInfo_icon2,.guideInfo_icon3,.guideInfo_icon4{padding-right:7px;}
+
+	.guideTraffic_icon {
+		width: 17%;
+		margin-right: 8px;
+	}
+	.Traffic_txt2{font-size:12px;}
+
+	.guideBus_name {
+		width: 30%;
+		margin-right: 5px;
+	}
+
+	.guideBus_info {
+		width: 67%;
+	}
+
+	.guideTraffic_txt {
+		width: 80%;
+	}
+
+	.sub31_guideBtn li a p {
+		font-size: 13px;
+	}
+
+
+
+	.sub31_guideBtn li a p.clipboard_btn_us{
+		
+	}
+
+	.sub31_guideBus_us li .guideBus_name {
+		width: 33%;
+	}
+	.sub31_guideBus_us li .guideBus_name .guideBus_name_txt {
+		width: 67%;
+	}
+
+	.sub31_guideBus_us li .guideBus_info {
+		width: 65%;
+	}
+
+	.sub31_guideTraffic_us li .guideTraffic_txt .Traffic_txt1{
+		font-size: 16px;
+	}
+
+
+
+
+
+	/* sub3_2 혜택분류별 보기 */
+	.sub3_2contents{
+		min-height:350px;
+	}
+	.sub32_cont_area_head h3 {
+		width: 35%;
+	}
+
+	.sub32_cont_area_head p {
+		font-size: 17px;
+	}
+
+	.sub3_benefit td.sub3_benefitIMG{
+		width: 44%;
+	}
+	.sub3_benefit td img {
+		/*width: 100%;*/
+		
+		height:auto;
+	}
+	.sub3_benefit td p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.sub31_viewTab .sub31_viewEX{
+		font-size: 13px;
+	}
+	.sub31_viewTab .sub31_viewEX p{
+		font-size: 13px;
+	}
+	.sub31_viewEX_guide{
+		font-size: 13px;
+		word-break: break-all;
+	}
+
+
+
+
+
+
+	/* sub4_1 전통체험코스 */
+
+	/* dec */
+	.tourinfo_ul li {
+		height: 178px;
+	}
+
+	.tourinfo_div {
+		background-size: 120%;
+		background-position: 0 -49px;
+	}
+	.tourinfo_div_div1 span {
+		font-size: 22px;
+	}
+
+	.tourinfo_div_div2{
+		width: 16%;
+		right: 6%;
+	}
+	.tourinfo_div_div2 img{width:100%;}
+
+	.tourinfo_ul1 li .tourinfo_div_div2{
+		width: 27%;
+		top: 7%;
+	}
+	.tourinfo_ul1 li .tourinfo_div_div2 img{}
+
+
+
+
+
+	.sub4_1view_loca{margin: 17% auto 2% auto;}
+	.sub41_locaList_img .bx-wrapper {
+		max-width: 100% !important;
+	}
+	.sub41_locaList_img .bx-wrapper .bx-viewport .slider2{margin-left:10.2%;}
+	.left_white, .right_white{width:8.1%;}
+
+	.sub41_locaList_txt {
+		padding: 8% 3%;
+	}
+	.sub41_locaList_txt h2 {
+		font-size: 25px;
+	}
+
+	.sub41_locaList_txt_us h2{
+		font-size: 20px;
+	}
+
+	.sub41_locaList_txt ul li {
+		font-size: 15px;
+	}
+	.sub41_locaList_txt ul li h4 {
+		
+		width: 27%;
+		margin-right: 2%; /*풍현 모바일 374px 이슈 수정 이벤트&커뮤니티 > 여행정보 > 각 여행 코스 제목과 내용 */
+	}
+	.sub41_locaList_txt ul li p{
+		
+	}
+	.sub41_locaList_txt ul li a {
+		width: 70%;
+		float:left;
+	}
+	.sub41_locaList_txt ul li p {
+		width: 70%;
+	}
+	.sub4_1snsBtn{
+		margin-bottom:60px;
+	}
+	.sub4_1List_img {
+		height: 260px;
+	}
+
+	.sub4_1List_img1 img {
+
+	}
+
+
+	.sub41_locaList_txt_us ul li{
+		font-size:12px;
+	}
+	.sub41_locaList_txt_us ul li p{
+		float:right;
+	}
+	.sub41_locaList_txt_us ul li a{
+		float:right;
+	}
+
+	
+	.sub41_locaList_txt_kan h2{
+		font-size: 22px;
+	}
+
+	.sub41_locaList_txt_kan ul li{
+		font-size: 14px;
+	}
+
+
+
+
+
+
+
+
+	/* sub4_2 교통정보 안내 */
+	.sub4_2_list .sub42_list {
+		width: 47.9%;
+		height: 480px;
+	}
+	.sub4_2_list .sub42_list div img {
+		width: 75%;
+	}
+	.sub42_btn li{
+		line-height: 21px;
+		margin-bottom: 13px;
+	}
+
+
+
+	
+
+	/* sub4_3 축제/행사/공연 일정 */
+	.calendar_left{
+		top: 24%;
+	}
+	.calendar_right{
+		top: 24%;
+	}
+	
+	.sub43_list li{
+		width: 48%;
+		height:161px;
+	}
+	.sub43_list li .sub43_listArea {
+		font-size: 12px;
+	}
+	.sub43_list_txt {
+		font-size: 15px;
+		height: 58px;
+	}
+	.calendar_txt1 {
+		font-size: 12px;
+		letter-spacing: -1px;
+	}
+
+	.sub4_trafficTab_us li a{
+		font-size: 13px;
+	}
+
+	.sub43_list_txt_jp{
+		height: 56px;
+		font-size: 14px;
+	}
+
+	.sub43_list_txt_cn{
+		height: 49px;
+	}
+
+
+
+
+
+	/* sub4_4 이벤트안내 */
+	.sub44_list_img{
+		background-position:right bottom ;
+		background-size:100% 50%;
+	}
+	
+
+
+
+
+
+	
+	/* sub4_5 FAQ */
+	.sub45_storeChoi{
+		margin-bottom: 80px;
+	}
+	.sub45_info {
+		padding: 6% 3%;
+		background-position: 95% 53px;
+	}
+	.sub45_active1 {
+		background-position: 95% -106px;
+	}
+
+	.sub45_a {
+		padding: 6% 3%;
+	}
+	.sub45_info_date{
+		padding-left: 7.9%;
+	}
+
+	.sub45_a_area table{
+		width:85%;
+	}
+	.sub45_info h3{
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 9px;
+	}
+
+
+	.faq_tabBtn .FAQTab_us li{
+		font-size: 11px;
+	}
+
+
+
+
+
+	/* sub4_6 공지사항 */
+	.sub46_list li{
+		padding:5% 3%;
+	}
+
+
+
+
+
+
+	
+	/* sub5_1 통합검색 */
+	.sub5_1List{
+		min-height:170px;
+	}
+	.sub51List li{
+		padding: 5% 3%;
+	}
+
+	.sub51List1 td {
+		padding: 5% 3%;
+	}
+
+	.sub51info_img {
+		width: 37%;
+	}
+	.sub51info_img img {
+		width: 100%;
+	}
+
+	.sub51List_info1 {
+		width: 48%;
+	}
+
+
+	.sub51List_icon{
+		width: 6%;
+	}
+	.sub51List_icon a img{width:100%;}
+
+	.sub51List_more{
+		right: 5%;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 375px) { /* 아이폰6 해상도 */
+	/* sub2_1 판매점 찾기 */
+	.sub21_active1 {
+		background-position: 95% -88px;
+	}
+
+
+
+	/* sub3_1 브랜드별 보기 list */
+	.sub31_List_area li {
+		height: 165px;
+	}
+	.sub31_List_area li a .sub31_ListImg {
+		width: 89%;
+		margin: 21px auto 18px auto;
+	}
+
+	.sub31_List_area .info{top:20px;}
+
+	.sub32_cont_area_head p {
+		width:52%;
+		font-size: 16px;
+	}
+
+
+	
+	.sub31_guideBus_us li .guideBus_name {
+		width: 36%;
+	}
+	.sub31_guideBus_us li .guideBus_name .guideBus_name_txt {
+		width: 69%;
+	}
+	.sub31_guideBus_us li .guideBus_info {
+		width: 62%;
+	}
+
+
+	.sub31_guideTraffic_us li .guideTraffic_icon{
+		width: 16%;
+		margin-right: 5px;
+	}
+
+
+
+	
+
+
+	/* sub4_1 전통체험코스 */
+	.sub41_locaList_img .bx-wrapper .bx-viewport .slider2{margin-left:6%;}
+	.left_white, .right_white{width:4%;}
+
+	/* dec */
+	.tourinfo_ul li {
+		height: 160px;
+	}
+	.tourinfo_div {
+		background-size: 113%;
+		background-position: 0 -26px;
+	}
+	.tourinfo_div_div1 span {
+		font-size: 19px;
+	}
+
+
+
+
+	/* sub4_2 교통정보 안내 */
+
+	.sub4_2_list .sub42_list {
+		height: 450px;
+	}
+	.sub4_2_list .sub42_list div h3 {
+		margin: 0 auto 23px auto;
+	}
+	
+
+	
+	/* sub4_3 축제/행사 */
+	.sub43_list li{
+		width: 47.5%;
+		height:158px;
+	}
+
+
+
+	/* sub4_5 FAQ */
+	.sub45_info_date {
+		padding-left: 8.8%;
+	}	
+
+
+
+	/* sub5_1 통합검색 */
+	.sub51List_info_txt h3 {
+		font-size: 17px;
+	}
+	.sub51info_add {
+		font-size: 13px;
+	}
+	.sub51List_info1_txt h3 {
+		font-size: 17px;
+	}
+	.sub51List_info1_txt p {
+		font-size: 13px;
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width: 360px) { /* 안드로이드 해상도 */
+	/* sub1_1 코리아투어카드 혜택 */
+	.sub1_3topTxt{
+		font-size: 15px;
+	}
+	.sub1_3topTxt h4{
+		line-height: 22px;
+	}
+
+
+
+
+	/* sub2_1 판매점 찾기 */
+	.sub21_active1 {
+		background-position: 95% -83px;
+	}
+
+
+
+	/* sub2_2 전체판매점 안내 list */
+	.sub22_imgArea {
+		padding-top: 10px;
+	}
+
+
+
+
+	.guideTraffic_icon {
+		width: 15%;
+		margin-right: 7px;
+	}
+
+	
+	.sub31_guideTraffic_us li .guideTraffic_icon{
+		width: 13%;
+		margin-right: 5px;
+	}
+
+
+	
+	/* 3_1 view */
+	.sub31_guideBtn li {
+		
+	}
+
+
+	.sub31_guideBus_us li .guideBus_name {
+		width: 37%;
+	}
+	.sub31_guideBus_us li .guideBus_info {
+		width: 61%;
+	}
+
+
+
+
+
+
+
+	/* sub4_1 전통체험코스 */
+	.sub41_locaList_img .bx-wrapper .bx-viewport .slider2{margin-left:4.1%;}
+	.left_white, .right_white{width:1%;}
+
+	.sub4_1List_img1 img {
+	
+	}
+
+
+
+	/* sub5_1 통합검색 */
+	.sub51List_more {
+		right: 4%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) { /* 작은 해상도 */
+	.sub_title2 h2 {
+		font-size: 15px;
+	}
+
+
+
+	.Sub_pgMenu .SCmenu3 a {
+		width: 157px;
+	}
+
+
+
+
+
+	.sub21_info_add {
+		width: 235px;
+		font-size: 13px;
+	}
+
+
+
+
+
+
+
+	.sub4_1List_img {
+		height: 244px;
+	}
+	.sub51info_add {
+		font-size: 12px;
+	}
+
+
+
+
+
+
+
+	.sub51List_info_txt h3 {
+		margin-bottom: 5px;
+	}
+
+	.sub51List_info1_txt {
+		width: 78%;
+	}
+	.sub51List_info1_txt h3 {
+		font-size: 15px;
+	}
+	.sub51List_info1_txt p {
+		font-size: 12px;
+	}
+}
