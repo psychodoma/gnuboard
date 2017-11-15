@@ -15,44 +15,44 @@ $print_version = defined('G5_YOUNGCART_VER') ? 'YoungCart Version '.G5_YOUNGCART
       </footer>
       <!-- /footer content -->
     </div>
-  
 
 
 
-<script src="<? echo G5_VENDORS ?>/jquery/dist/jquery.min.js"></script>
+
+<!-- <script src="<? echo G5_VENDORS ?>/jquery/dist/jquery.min.js"></script> -->
 <script src="<? echo G5_VENDORS ?>/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="<? echo G5_VENDORS ?>/fastclick/lib/fastclick.js"></script>
-<script src="<? echo G5_VENDORS ?>/nprogress/nprogress.js"></script>
-<script src="<? echo G5_VENDORS ?>/Chart.js/dist/Chart.min.js"></script>
-<script src="<? echo G5_VENDORS ?>/gauge.js/dist/gauge.min.js"></script>
+<!-- <script src="<? echo G5_VENDORS ?>/fastclick/lib/fastclick.js"></script> -->
+<!-- <script src="<? echo G5_VENDORS ?>/nprogress/nprogress.js"></script> -->
+<!-- <script src="<? echo G5_VENDORS ?>/Chart.js/dist/Chart.min.js"></script> -->
+<!-- <script src="<? echo G5_VENDORS ?>/gauge.js/dist/gauge.min.js"></script> -->
 <script src="<? echo G5_VENDORS ?>/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
 <script src="<? echo G5_VENDORS ?>/iCheck/icheck.min.js"></script>
-<script src="<? echo G5_VENDORS ?>/skycons/skycons.js"></script>
-<script src="<? echo G5_VENDORS ?>/Flot/jquery.flot.js"></script>
+<!-- <script src="<? echo G5_VENDORS ?>/skycons/skycons.js"></script> -->
+<!-- <script src="<? echo G5_VENDORS ?>/Flot/jquery.flot.js"></script>
 <script src="<? echo G5_VENDORS ?>/Flot/jquery.flot.pie.js"></script>
 <script src="<? echo G5_VENDORS ?>/Flot/jquery.flot.time.js"></script>
 <script src="<? echo G5_VENDORS ?>/Flot/jquery.flot.stack.js"></script>
 <script src="<? echo G5_VENDORS ?>/Flot/jquery.flot.resize.js"></script>
 <script src="<? echo G5_VENDORS ?>/flot.orderbars/js/jquery.flot.orderBars.js"></script>
 <script src="<? echo G5_VENDORS ?>/flot-spline/js/jquery.flot.spline.min.js"></script>
-<script src="<? echo G5_VENDORS ?>/flot.curvedlines/curvedLines.js"></script>
+<script src="<? echo G5_VENDORS ?>/flot.curvedlines/curvedLines.js"></script> -->
 <script src="<? echo G5_VENDORS ?>/DateJS/build/date.js"></script>
-<script src="<? echo G5_VENDORS ?>/jqvmap/dist/jquery.vmap.js"></script>
-<script src="<? echo G5_VENDORS ?>/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-<script src="<? echo G5_VENDORS ?>/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
-<script src="<? echo G5_VENDORS ?>/moment/min/moment.min.js"></script>
-<script src="<? echo G5_VENDORS ?>/bootstrap-daterangepicker/daterangepicker.js"></script>
+<!-- <script src="<? echo G5_VENDORS ?>/jqvmap/dist/jquery.vmap.js"></script>
+<script src="<? echo G5_VENDORS ?>/jqvmap/dist/maps/jquery.vmap.world.js"></script> -->
+<!-- <script src="<? echo G5_VENDORS ?>/jqvmap/examples/js/jquery.vmap.sampledata.js"></script> -->
+<!-- <script src="<? echo G5_VENDORS ?>/moment/min/moment.min.js"></script> -->
+<!-- <script src="<? echo G5_VENDORS ?>/bootstrap-daterangepicker/daterangepicker.js"></script> -->
 <script src="<? echo G5_BUILD ?>/js/custom.min.js"></script>
 
 <!-- <script src="<?php echo G5_ADMIN_URL ?>/admin.js?ver=<?php echo G5_JS_VER; ?>"></script> -->
 
 
 
-<?if(strpos($_SERVER['PHP_SELF'],'adm/bbs') !== false) {  ?> 
-<script src="<?php echo G5_ADMIN_URL ?>/admin_no_token.js?ver=<?php echo G5_JS_VER; ?>"></script> 
-<?php } else {  ?> 
-<script src="<?php echo G5_ADMIN_URL ?>/admin.js?ver=<?php echo G5_JS_VER; ?>"></script> 
-<?php } ?> 
+<?if(strpos($_SERVER['PHP_SELF'],'adm/bbs') !== false) {  ?>
+<script src="<?php echo G5_ADMIN_URL ?>/admin_no_token.js?ver=<?php echo G5_JS_VER; ?>"></script>
+<?php } else {  ?>
+<script src="<?php echo G5_ADMIN_URL ?>/admin.js?ver=<?php echo G5_JS_VER; ?>"></script>
+<?php } ?>
 
 
 

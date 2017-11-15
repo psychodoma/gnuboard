@@ -39,14 +39,14 @@ table th{
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                     <div class="x_title">
-                        
+
                         <ul class="nav navbar-right panel_toolbox">
                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                             </li>
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                                
+
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="#">Settings 1</a>
                                     </li>
@@ -64,7 +64,7 @@ table th{
                     </div>
 
                     <div class="x_content">
- 
+
 
 
                         <section id="bo_w">
@@ -206,10 +206,10 @@ table th{
                                     <td>
                                         <input type="file" name="bf_file[]" title="파일첨부 <?php echo $i+1 ?> : 용량 <?php echo $upload_max_filesize ?> 이하만 업로드 가능" class="frm_file frm_input">
                                         <?php if ($is_file_content) { ?>
-                                        <input type="text" name="bf_content[]" value="<?php echo ($w == 'u') ? $file[$i]['bf_content'] : ''; ?>" title="파일 설명을 입력해주세요." class="form-control frm_file frm_input" size="50">
+                                        <br><input type="text" name="bf_content[]" value="<?php echo ($w == 'u') ? $file[$i]['bf_content'] : ''; ?>" title="파일 설명을 입력해주세요." class="form-control frm_file frm_input" size="50" placeholder="파일 설명을 입력해주세요." style='width:300px;'>
                                         <?php } ?>
                                         <?php if($w == 'u' && $file[$i]['file']) { ?>
-                                        <input type="checkbox" id="bf_file_del<?php echo $i ?>" class='flat' name="bf_file_del[<?php echo $i;  ?>]" value="1"> <label for="bf_file_del<?php echo $i ?>"><?php echo $file[$i]['source'].'('.$file[$i]['size'].')';  ?> 파일 삭제</label>
+                                        <br><input type="checkbox" id="bf_file_del<?php echo $i ?>" class='flat' name="bf_file_del[<?php echo $i;  ?>]" value="1"> <label for="bf_file_del<?php echo $i ?>"><?php echo $file[$i]['source'].'('.$file[$i]['size'].')';  ?> 파일 삭제</label>
                                         <?php } ?>
                                     </td>
                                 </tr>
@@ -240,7 +240,7 @@ table th{
 
 
 
-                    
+
                     </div>
                 </div>
             </div>
