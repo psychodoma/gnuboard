@@ -64,11 +64,11 @@ $colspan = 5;
                   <br>
                   <thead>
                   <tr>
-                      <th scope="col">그룹</th>
+                      <th scope="col" class='moblie_hide'>그룹</th>
                       <th scope="col">게시판</th>
                       <th scope="col">제목</th>
                       <th scope="col">이름</th>
-                      <th scope="col">일시</th>
+                      <th scope="col" class='moblie_hide'>일시</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -114,11 +114,11 @@ $colspan = 5;
                   ?>
 
                   <tr>
-                      <td class="td_category"><a href="<?php echo G5_BBS_URL ?>/new.php?gr_id=<?php echo $row['gr_id'] ?>" target='_blank' ><?php echo cut_str($row['gr_subject'],10) ?></a></td>
+                      <td class="td_category moblie_hide"><a href="<?php echo G5_BBS_URL ?>/new.php?gr_id=<?php echo $row['gr_id'] ?>" target='_blank' ><?php echo cut_str($row['gr_subject'],10) ?></a></td>
                       <td class="td_category"><a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=<?php echo $row['bo_table'] ?>" target='_blank' ><?php echo cut_str($row['bo_subject'],20) ?></a></td>
                       <td><a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=<?php echo $row['bo_table'] ?>&amp;wr_id=<?php echo $row2['wr_id'] ?><?php echo $comment_link ?>" target='_blank' ><?php echo $comment ?><?php echo conv_subject($row2['wr_subject'], 30) ?></a></td>
                       <td class="td_mbname"><div><?php echo $name ?></div></td>
-                      <td class="td_datetime"><?php echo $datetime ?></td>
+                      <td class="td_datetime moblie_hide"><?php echo $datetime ?></td>
                   </tr>
 
                   <?php

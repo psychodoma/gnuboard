@@ -81,12 +81,12 @@ $colspan = 12;
                      <th scope="col">이름</th>
                      <th scope="col">닉네임</th>
                      <th scope="col">권한</th>
-                     <th scope="col">포인트</th>
-                     <th scope="col">수신</th>
-                     <th scope="col">공개</th>
-                     <th scope="col">인증</th>
-                     <th scope="col">차단</th>
-                     <th scope="col">그룹</th>
+                     <th scope="col" class='moblie_hide'>포인트</th>
+                     <th scope="col" class='moblie_hide'>수신</th>
+                     <th scope="col" class='moblie_hide'>공개</th>
+                     <th scope="col" class='moblie_hide'>인증</th>
+                     <th scope="col" class='moblie_hide'>차단</th>
+                     <th scope="col" class='moblie_hide'>그룹</th>
                  </tr>
                  </thead>
                  <tbody>
@@ -129,12 +129,12 @@ $colspan = 12;
                      <td class="td_mbname"><a href='/adm/member_form.php?w=u&amp;mb_id=<?=$mb_id?>' target='_blank' ><?php echo get_text($row['mb_name']); ?></a></td>
                      <td class="td_mbname sv_use"><div><?php echo $mb_nick ?></div></td>
                      <td class="td_num"><?php echo $row['mb_level'] ?></td>
-                     <td><a href="./point_list.php?sfl=mb_id&amp;stx=<?php echo $row['mb_id'] ?>"><?php echo number_format($row['mb_point']) ?></a></td>
-                     <td class="td_boolean"><?php echo $row['mb_mailling']?'예':'아니오'; ?></td>
-                     <td class="td_boolean"><?php echo $row['mb_open']?'예':'아니오'; ?></td>
-                     <td class="td_boolean"><?php echo preg_match('/[1-9]/', $row['mb_email_certify'])?'예':'아니오'; ?></td>
-                     <td class="td_boolean"><?php echo $row['mb_intercept_date']?'예':'아니오'; ?></td>
-                     <td class="td_category"><?php echo $group ?></td>
+                     <td class="moblie_hide" ><a href="./point_list.php?sfl=mb_id&amp;stx=<?php echo $row['mb_id'] ?>"><?php echo number_format($row['mb_point']) ?></a></td>
+                     <td class="td_boolean moblie_hide"><?php echo $row['mb_mailling']?'예':'아니오'; ?></td>
+                     <td class="td_boolean moblie_hide"><?php echo $row['mb_open']?'예':'아니오'; ?></td>
+                     <td class="td_boolean moblie_hide"><?php echo preg_match('/[1-9]/', $row['mb_email_certify'])?'예':'아니오'; ?></td>
+                     <td class="td_boolean moblie_hide"><?php echo $row['mb_intercept_date']?'예':'아니오'; ?></td>
+                     <td class="td_category moblie_hide"><?php echo $group ?></td>
                  </tr>
                  <?php
                      }

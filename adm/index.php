@@ -10,6 +10,13 @@ table{text-align:center;}
 table th{text-align:center;}
 .table>thead>tr>th{vertical-align: inherit;}
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{vertical-align: inherit;}
+
+@media (max-width: 991px) {
+  .moblie_hide{
+    display: none;
+  }
+}
+
 </style>
 
 <div class="right_col" role="main">
